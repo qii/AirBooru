@@ -1,0 +1,34 @@
+
+/*
+  File.strings
+  AirBooru
+
+  Created by qii on 9/26/15.
+  Copyright © 2015 org.qii.airbooru. All rights reserved.
+*/
+
+"Home" = "首页";
+"Tags" = "标签";
+"Favourite" = "收藏";
+"Settings" = "设置";
+"SlideShow" = "幻灯片";
+"Report" = "举报";
+"Cancel" = "取消";
+"Report successfully" = "举报成功";
+"Are you sure you want to report this post?" = "确定要举报?";
+"Rating Levels" = "Rating Levels";
+"Safe Browsing" = "安全浏览";
+"Manage Servers" = "管理服务器";
+"Write a review" = "写评价";
+"Version" = "版本";
+"Author" = "作者";
+"Limit Max Cache Size" = "最大缓存限制";
+"Clear Local Cache" = "清空缓存";
+"Category" = "分类";
+"Latest" = "最先";
+"Score" = "评分";
+"Random" = "随机";
+"Popular (by day)" = "流行 (by day)";
+"Popular (by week)" = "流行 (by week)";
+"Popular (by month)" = "流行 (by month)";
+"Popular (by year)" = "流行 (by year)";

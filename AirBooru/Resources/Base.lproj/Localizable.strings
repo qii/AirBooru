@@ -1,0 +1,34 @@
+
+/*
+  File.strings
+  AirBooru
+
+  Created by qii on 9/26/15.
+  Copyright © 2015 org.qii.airbooru. All rights reserved.
+*/
+
+"Home" = "Home";
+"Tags" = "Tags";
+"Favourite" = "Favourite";
+"Settings" = "Settings";
+"SlideShow" = "SlideShow";
+"Report" = "Report";
+"Cancel" = "Cancel";
+"Report successfully" = "Report successfully";
+"Are you sure you want to report this post?" = "Are you sure you want to report this post?";
+"Rating Levels" = "Rating Levels";
+"Safe Browsing" = "Safe Browsing";
+"Manage Servers" = "Manage Servers";
+"Write a review" = "Write a review";
+"Version" = "Version";
+"Author" = "Author";
+"Limit Max Cache Size" = "Limit Max Cache Size";
+"Clear Local Cache" = "Clear Local Cache";
+"Category" = "Category";
+"Latest" = "Latest";
+"Score" = "Score";
+"Random" = "Random";
+"Popular (by day)" = "Popular (by day)";
+"Popular (by week)" = "Popular (by week)";
+"Popular (by month)" = "Popular (by month)";
+"Popular (by year)" = "Popular (by year)";
