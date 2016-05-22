@@ -6,6 +6,8 @@ An imageboard or booru is a type of Internet forum which operates mostly via pos
 
 require iOS 8.2+
 
+https://itunes.apple.com/cn/app/airbooru/id1018160420
+
 
 Snapshot
 --------------
