@@ -11,9 +11,9 @@
 #import "UIView+StringTagAdditions.h"
 
 @interface BrowsePostCell ()
-@property(strong, nonatomic) ZoomScrollView *imageView;
+@property(strong, nonatomic) GesturePictureView *imageView;
 @property(strong, nonatomic) CircleProgressView *indicatorView;
-@property(copy, nonatomic) ZoomScrollSingleTapBlock innerZoomScrollSingleTapBlock;
+@property(copy, nonatomic) SingleTapBlock innerZoomScrollSingleTapBlock;
 @property(assign, nonatomic) BOOL isHighResolutionPictureLoaded;
 @property(strong, nonatomic) UILabel *tipLabel;
 @end
@@ -24,7 +24,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         self.isHighResolutionPictureLoaded = NO;
-        self.imageView = [[ZoomScrollView alloc] initWithFrame:self.bounds];
+        self.imageView = [[GesturePictureView alloc] initWithFrame:self.bounds];
         __weak BrowsePostCell *weakSelf = self;
         self.innerZoomScrollSingleTapBlock = ^void() {
             weakSelf.singleTapBlock();

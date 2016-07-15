@@ -7,7 +7,7 @@
 #import "PostList.h"
 #import "Post.h"
 #import "ViewPager.h"
-#import "ZoomScrollView.h"
+#import "GesturePictureView.h"
 #import "ImageLoader.h"
 #import "BrowsePostCell.h"
 #import "LocalCacheDB.h"
@@ -24,7 +24,7 @@
 @property(assign, nonatomic) int index;
 
 @property(strong, nonatomic) ViewPager *viewPager;
-@property(copy, nonatomic) ZoomScrollSingleTapBlock zoomScrollSingleTapBlock;
+@property(copy, nonatomic) SingleTapBlock zoomScrollSingleTapBlock;
 @property(strong, nonatomic) UIView *currentItemView;
 @property(assign, nonatomic) BOOL statusBarShouldBeHidden;
 @property(strong, nonatomic) UIToolbar *toolbar;

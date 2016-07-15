@@ -5,13 +5,13 @@
 
 #import <Foundation/Foundation.h>
 #import "UIKit/UIKit.h"
-#import "ZoomScrollView.h"
+#import "GesturePictureView.h"
 
 @class Post;
 
 @interface BrowsePostCell : UIView
 @property(strong, nonatomic) Post *post;
-@property(copy, nonatomic) ZoomScrollSingleTapBlock singleTapBlock;
+@property(copy, nonatomic) SingleTapBlock singleTapBlock;
 
 - (void)beginDownloadImage;
 
