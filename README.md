@@ -11,5 +11,10 @@ https://itunes.apple.com/cn/app/airbooru/id1018160420
 
 Snapshot
 --------------
+Main 
+
 <img width="30%" height="30%" src="https://raw.githubusercontent.com/qii/AirBooru/master/snapshot.png"/>
 
+Rotate photo
+
+<img width="30%" height="30%" src="https://raw.githubusercontent.com/qii/AirBooru/master/rotate_snapshot.jpg"/>
