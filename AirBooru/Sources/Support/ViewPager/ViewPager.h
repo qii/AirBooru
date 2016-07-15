@@ -1,6 +1,6 @@
 //
 // Created by qii on 2/6/15.
-// Copyright (c) 2015 QuickPic. All rights reserved.
+// Copyright (c) 2015 org.qii.airbooru. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

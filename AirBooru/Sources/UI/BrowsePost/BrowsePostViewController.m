@@ -343,7 +343,7 @@
             placeholder = [request placeholderForCreatedAssetCollection];
 
         }                                 completionHandler:^(BOOL success, NSError *error) {
-            NSLog(@"AppDownloadDelegate create QuickPic album : %d", success);
+            NSLog(@"AppDownloadDelegate create org.qii.airbooru album : %d", success);
             NSString *localIdentifier = placeholder.localIdentifier;
             NSArray *localIdentifiers = @[localIdentifier];
             PHFetchResult *result = [PHAssetCollection fetchAssetCollectionsWithLocalIdentifiers:localIdentifiers options:nil];
