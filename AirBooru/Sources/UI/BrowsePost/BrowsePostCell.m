@@ -91,6 +91,9 @@
 }
 
 - (void)loadHighResImage {
+    if (self.isHighResolutionPictureLoaded) {
+        return;
+    }
     self.indicatorView.progress = 0.0f;
     ABUImageLoaderSuccessBlock successBlock = ^void(NSString *url, UIImage *image) {
         if ([self isViewTagSame]) {
